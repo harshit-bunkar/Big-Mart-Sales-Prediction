@@ -1,0 +1,44 @@
+Create a professional, presentation-ready PowerPoint of EXACTLY 10 slides for a
+machine learning internship project. Use a clean modern design suited to the
+"Retail Analytics / Regression" theme. Keep text concise with bullet points and suggest a relevant
+icon or simple chart for each slide.
+
+PROJECT TITLE: Big Mart Sales Prediction Using Machine Learning
+
+Slide 1 - Title slide:
+  Title: "Big Mart Sales Prediction Using Machine Learning"
+  Internship Project - Artificial Intelligence Domain
+  Submitted By: Harshit
+  College: Vijay Patil School of Management, Navi Mumbai
+  Course: Master of Business Administration (MBA)
+  Organization: Naviotech Solution Pvt. Ltd.
+  Date: June 2026
+
+Slide 2 - Introduction: Background on the problem in retail analytics / regression and how AI/ML
+  helps. End with the objective: To predict the sales of products across different Big Mart outlets based on product and store attributes, helping the business understand the factors that drive sales.
+
+Slide 3 - Problem Statement: To predict the sales of products across different Big Mart outlets based on product and store attributes, helping the business understand the factors that drive sales. List 3-4 challenges.
+
+Slide 4 - Dataset Information: The Big Mart Sales dataset containing 8,523 records of products sold across 10 stores. Each record describes a product and the outlet it was sold in, along with its sales figure.
+  Key features: Item Identifier & Weight, Item Fat Content, Item Visibility, Item Type & MRP, Outlet Identifier, Outlet Establishment Year.
+  Target: Item_Outlet_Sales (the sales amount to be predicted)
+
+Slide 5 - Tools & Technologies: Python, NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn, XGBoost, Google Colab / Jupyter Notebook.
+
+Slide 6 - Data Preprocessing: data loading, cleaning, feature preparation,
+  train-test split. Mention why preprocessing improves results.
+
+Slide 7 - Methodology: Data collection -> cleaning -> encoding -> train/test split -> model training -> evaluation. Show as a simple flow diagram.
+Slide 8 - Model Building & Training: Algorithm used is XGBoost Regressor (Extreme Gradient Boosting). Briefly
+  explain how it is trained on the training data.
+
+Slide 9 - Results & Performance: Present these real results as stat cards or a bar chart:
+  - R² Score (Test): 0.59
+  - R² Score (Training): 0.64
+  Add one line: "After data cleaning, label encoding and feature engineering, an XGBoost Regressor was trained. It achieved an R-squared score of about 0.64 on training data and 0.59 on test data, indicating the model explains a reasonable portion of the variation in product sales."
+
+Slide 10 - Conclusion & Future Scope + a "Thank You" line.
+  Conclusion: the model works well and supports decision-making.
+  Future scope: larger datasets, advanced models, real-time deployment.
+
+Make it visually engaging and ready to present.
